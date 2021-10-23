@@ -8,7 +8,7 @@ ECHO 2. Generating battery report
 powercfg /batteryreport
 timeout /t 3 >nul
 .\battery-report.html
-ECHO 
+ECHO.
 ECHO 3. Please, connect the device to the internet.
 PAUSE 
 
